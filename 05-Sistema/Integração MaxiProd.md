@@ -34,6 +34,14 @@ Estados de contas: `DIGITACAO`, `EMITIDO`, `PAGO`/`RECEBIDO`, `PARCELADO`, `AGRU
 ## Rastrear qual NF foi para qual OP
 A movimentação de estoque tem `notaFiscalItemId` (preenchido na entrada da nota), `loteInterno` e `origemLoteId`. Com lote nas matérias-primas, dá para seguir saída → lote → entrada → NF com exatidão. Sem lote, só por item + data (aproximado para itens recorrentes).
 
+## O que já sincroniza (de hora em hora)
+- Notas fiscais recebidas → `invoices` (com o botão manual também)
+- Contas a pagar e a receber → `maxiprod_contas` (só Financeiro vê)
+- Pedidos de venda → `maxiprod_pedidos_venda`
+- Ordens de produção → `maxiprod_ordens_producao`
+
+O espelho só traz criados ou alterados desde a última vez. Registro apagado no MaxiProd não é percebido; cancelado, sim.
+
 ## O que ainda falta testar
 - Em 25/11/2026 o MaxiProd está vazio; as consultas de OP devolveram erro 500 sem dados.
 - Testar com a primeira OS real: as três consultas de teste (OPs, movimentações de uma OP, contas a pagar).

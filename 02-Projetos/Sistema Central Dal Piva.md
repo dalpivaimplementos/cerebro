@@ -17,15 +17,15 @@ relacionados: ["[[Visão geral do sistema]]", "[[Integração MaxiProd]]", "[[20
 - [ ] Revisar quem é admin na tela Usuários (com a diretoria)
 - [ ] Configurar o MaxiProd para o sistema conseguir ler ([[Configuração do MaxiProd]])
 - [ ] Lançar uma OS real completa no MaxiProd e testar a API
-- [ ] Agendamento automático da sincronização (cron do Cloudflare): PR #2, conferir em produção depois do merge
-- [ ] Sincronizar contas a pagar/receber → fluxo de caixa automático
-- [ ] Sincronizar pedidos de venda e OPs → quadro de produção automático
+- [x] Agendamento automático da sincronização (PR #2, aprovado). Falta conferir em produção se roda sozinho
+- [ ] Espelho de contas, pedidos de venda e OPs (PR #3, aguardando aprovação)
+- [ ] Telas usando o espelho: fluxo de caixa automático e quadro de produção automático
 - [ ] Custo da OS pelas baixas de estoque do MaxiProd
 - [ ] Assistente de IA dentro do sistema
 - [ ] Alertas: prazo em risco, OS sem apontamento, caixa negativo previsto
 
 ## Situação atual
-25/11/2026: segurança corrigida e no ar (PR #1). MaxiProd ainda sem nenhum lançamento, então os testes da API esperam a primeira OS real. Próximo passo técnico: agendamento automático da sincronização.
+25/11/2026: segurança no ar (PR #1); sincronização automática de hora em hora aprovada (PR #2); espelho de contas, pedidos e OPs pronto (PR #3). O MaxiProd ainda está vazio: as telas novas esperam os primeiros lançamentos reais.
 
 ## Decisões do projeto
 - [[2026-11-25 MaxiProd como fonte única]]
