@@ -31,6 +31,7 @@ Ponto de entrada de toda consulta. Atualizado a cada nota criada, movida ou arqu
 - [[2026-11-25 MaxiProd como fonte única]]
 - [[2026-11-25 Acesso por perfil nas tabelas]]
 - [[2026-11-25 OS é o pedido de venda]] (proposta)
+- [[2026-11-25 Hospedagem continua no Lovable]]
 
 ## Rotinas
 - Diária: nota do dia em `01-Diario/`, processar o Inbox (skill `processar-inbox`)

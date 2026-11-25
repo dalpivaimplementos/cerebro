@@ -17,7 +17,7 @@ relacionados: ["[[Visão geral do sistema]]", "[[Integração MaxiProd]]", "[[20
 - [ ] Revisar quem é admin na tela Usuários (com a diretoria)
 - [ ] Configurar o MaxiProd para o sistema conseguir ler ([[Configuração do MaxiProd]])
 - [ ] Lançar uma OS real completa no MaxiProd e testar a API
-- [ ] Agendamento automático da sincronização (cron do Cloudflare)
+- [ ] Agendamento automático da sincronização (cron do Cloudflare): PR #2, conferir em produção depois do merge
 - [ ] Sincronizar contas a pagar/receber → fluxo de caixa automático
 - [ ] Sincronizar pedidos de venda e OPs → quadro de produção automático
 - [ ] Custo da OS pelas baixas de estoque do MaxiProd
@@ -31,6 +31,7 @@ relacionados: ["[[Visão geral do sistema]]", "[[Integração MaxiProd]]", "[[20
 - [[2026-11-25 MaxiProd como fonte única]]
 - [[2026-11-25 Acesso por perfil nas tabelas]]
 - [[2026-11-25 OS é o pedido de venda]] (proposta)
+- [[2026-11-25 Hospedagem continua no Lovable]]
 
 ## Riscos e bloqueios
 - A API do MaxiProd é só de leitura: o sistema não consegue gravar nada no ERP.
