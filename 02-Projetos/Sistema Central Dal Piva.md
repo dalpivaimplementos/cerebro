@@ -21,6 +21,7 @@ relacionados: ["[[Visão geral do sistema]]", "[[Integração MaxiProd]]", "[[20
 - [ ] Espelho de contas, pedidos de venda e OPs (PR #3, aguardando aprovação)
 - [ ] Telas usando o espelho: fluxo de caixa automático e quadro de produção automático
 - [ ] Custo da OS pelas baixas de estoque do MaxiProd
+- [ ] CRM de prospecção de peneiras (PR #4)
 - [ ] Assistente de IA dentro do sistema
 - [ ] Alertas: prazo em risco, OS sem apontamento, caixa negativo previsto
 

@@ -20,6 +20,7 @@ Ponto de entrada de toda consulta. Atualizado a cada nota criada, movida ou arqu
 
 ## Processos
 - [[Nota fiscal até o custo da OS]]: hoje (com dupla digitação) e proposta
+- [[Prospecção de peneiras]]: como usar o CRM de prospecção (proposta)
 - [[Configuração do MaxiProd]]: como cadastrar para o sistema conseguir ler (proposta)
 
 ## Sistema

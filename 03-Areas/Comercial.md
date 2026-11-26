@@ -13,8 +13,10 @@ relacionados: ["[[2026-11-25 OS é o pedido de venda]]", "[[Produção]]"]
 - Orçamentos e PDFs: sistema de gestão (Orçamentos / Orç. de Serviço)
 - Clientes: sistema de gestão (Clientes) e MaxiProd
 - Pedidos de venda: MaxiProd
+- Prospecção (CRM): sistema de gestão (Comercial → Prospecção)
 
 ## Processos
+- [[Prospecção de peneiras]]
 - _a escrever:_ [[Orçamento de equipamento]], [[Do orçamento aprovado ao pedido de venda]]
 
 ## Notas recentes
