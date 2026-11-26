@@ -30,6 +30,9 @@ O botão **Melhores contatos** mostra só o grupo 1 com WhatsApp ou e-mail.
 5. Defina o **próximo contato**. O filtro "Retorno até hoje" mostra quem precisa de retorno.
 6. Orçamento enviado → status **Orçamento enviado**; venda → **Fechado**.
 
+## Segmento roll on/off (aba própria)
+Mesma página, aba **Roll on/off**: empresas de resíduos do PR (5.241). Prioridade: **coleta de resíduos** como CNAE principal → coleta como secundário → tratamento → sucata/reciclagem → terraplenagem/demolição. Nome com "caçamba/entulho" vem primeiro dentro de cada grupo. 124 empresas estão nas duas abas, com o mesmo histórico.
+
 ## Pontos de atenção
 - E-mail com aviso (⚠) pode ser do escritório de contabilidade: prefira WhatsApp ou telefone.
 - Telefone ou e-mail errado: corrija no painel ou marque **Contato inválido**.
